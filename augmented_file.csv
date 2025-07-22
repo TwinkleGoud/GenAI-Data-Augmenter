@@ -1,0 +1,61 @@
+ProductID,ProductName,Category,Price,StockQuantity,Supplier,Description
+101,Dog Food,Food,25.99,100,PetSuppliesCo,Premium dry dog food with essential nutrients.
+102,Cat Litter,Litter,15.5,200,FelineProducts,Clumping cat litter with odor control.
+103,Bird Cage,Housing,45.0,50,AviaryHomes,Spacious bird cage suitable for small to medium birds.
+104,Fish Tank,Housing,60.75,20,AquaWorld,Glass fish tank with filtration system.
+105,Rabbit Hutch,Housing,75.0,10,BunnyHavens,Wooden rabbit hutch with waterproof roof.
+106,Dog Treats,Food,15.99,150,PetDelights,Tasty dog treats filled with peanut butter.
+107,Cat Food,Food,29.99,175,FelineFeast,Nutritious cat food with salmon and rice.
+108,Ferret Cage,Housing,80.0,30,FerretHomes,Multi-level ferret cage with ramps and sleeping areas.
+109,Hamster Habitat,Housing,35.0,60,SmallPetLiving,Spacious habitat for hamsters with tunnels and toys.
+110,Parrot Food,Food,22.5,80,AviaryDelights,Special blend of seeds for parrots and exotic birds.
+111,Dog Bed,Accessories,45.99,90,ComfyPets,Orthopedic dog bed for improved sleeping comfort.
+112,Cat Scratching Post,Accessories,25.0,120,PurrfectCat,Tall scratching post with multiple levels.
+113,Turtle Tank,Housing,55.0,40,ReptileWorld,Aquatic tank suitable for turtles with a basking area.
+114,Fish Food,Food,10.99,200,AquaFoods,Flakes formulated for tropical fish.
+115,Small Animal Toys,Toys,12.5,150,PetPlayFun,Variety pack of toys for small animals.
+116,Bunny Food,Food,18.5,160,BunnyBites,Natural grass hay and crunchy veggie mix for rabbits.
+117,Cat Carrier,Accessories,40.0,70,TravelingCats,Portable cat carrier with secure locking system.
+118,Aquarium Stand,Furniture,90.0,25,AquaFurniture,Sturdy stand designed to hold aquariums.
+119,Dog Leash,Accessories,15.0,220,PawesomeGear,"Durable, adjustable leash for all dog sizes."
+120,Ferret Playpen,Toys,59.99,30,FerretFunZone,Expandable playpen for ferrets to enjoy.
+121,Reptile Heat Lamp,Equipment,25.0,55,ReptileEssentials,Heat lamp suited for reptiles to maintain their habitat.
+122,Dog Collar,Accessories,10.99,200,PetStyle,Reflective adjustable collar for safety.
+123,Small Animal Cage,Housing,100.0,15,CageCraft,Large cage ideal for rabbits and guinea pigs.
+124,Parakeet Aviary,Housing,200.0,10,AviaryJoy,Spacious aviary for multiple parakeets.
+125,Pet Water Fountain,Accessories,35.99,100,HydraPet,Automatic water fountain that encourages drinking.
+126,Tortoise Food,Food,19.9,50,ReptiFeast,Natural herb mix suitable for tortoises.
+127,Dog Training Pads,Supplies,29.99,90,PetCare,Absorbent pads for indoor dog training.
+128,Hamster Wheels,Toys,10.0,120,SmallPetToys,Silent running wheel for hamsters.
+129,Bird Feeders,Accessories,20.0,75,NatureFeeders,Easy refill bird feeders attracting various birds.
+130,Pet Shampoo,Grooming,15.5,60,CleanPets,Gentle shampoo formulated for sensitive skin.
+131,Fish Aquarium Decor,Accessories,30.0,50,AquaArt,Decorative pieces for enhancing fish tank appeal.
+132,Small Animal Carrier,Accessories,35.0,80,TravelPets,Soft-sided carrier for small pets.
+133,Pond Filter,Equipment,75.0,25,AquaSystems,Efficient filter to maintain pond water clarity.
+134,Bird Bath,Accessories,25.0,40,NatureLovers,Attractive bath for birds to enjoy.
+135,Ferret Food,Food,21.99,90,FerretFeast,Complete diet food for ferrets.
+136,Sisal Cat Toy,Toys,8.99,200,PurrfectPlay,Durable toy made from natural sisal fiber.
+137,Small Animal Hiding House,Housing,14.99,150,SafeHaven,Cozy hiding spot for small pets.
+138,Organic Catnip,Food,9.99,250,HappyCats,100% organic catnip for playtime.
+139,Dogs Grooming Kit,Grooming,45.99,100,GroomingSpecials,Complete grooming kit for dogs including clippers.
+140,Climbing Perch for Birds,Toys,19.99,60,AviaryToys,Natural wood perch for birds to exercise.
+141,Pet First Aid Kit,Supplies,29.0,45,PetSafety,Comprehensive first aid kit for pets.
+142,Lizard Terrarium,Housing,150.0,20,ReptileWorld,Spacious terrarium for reptiles with UVB lighting.
+143,Ferret Exercise Ball,Toys,12.5,75,FerretFun,Large exercise ball designed for ferrets.
+144,Cat Puzzle Toy,Toys,17.5,100,FelineSmart,Interactive puzzle toy for cats to stimulate their mind.
+145,Pet Gate,Accessories,40.0,80,GuardianPets,Adjustable pet gate to limit pets’ access.
+146,Rabbit Water Bottle,Supplies,12.0,200,BunnyEssentials,Leak-proof water bottle designed for rabbits.
+147,Pet Odor Eliminator,Grooming,10.0,150,FreshHome,Natural odor eliminator for homes with pets.
+148,Inflatable Dog Pool,Accessories,55.0,30,PawPlay,Portable inflatable pool for dogs to cool off.
+149,Lizard Food,Food,11.99,90,ReptiDiet,Balanced nutrition for lizards in pellet form.
+150,Hamster Treats,Food,5.99,250,HappyHamster,Tasty treat sticks for hamsters.
+151,Dog Clicker,Training,9.99,150,DogTrainer,Training clicker for positive reinforcement.
+152,Pet Security Camera,Tech,100.0,20,SmartPets,HD camera to monitor pets from your phone.
+153,Collapsible Pet Bowl,Accessories,8.0,300,TravelingPets,Foldable bowl for pets on the go.
+154,Bird Seed Mix,Food,24.99,80,AviaryMix,Nutritious blend of seeds for all types of birds.
+155,Pet Travel Bed,Accessories,35.0,65,TravelingPets,Foldable bed for pets during travels.
+156,Grooming Brush,Grooming,15.0,110,PetGroomingSupplies,Versatile brush suitable for all fur types.
+157,Pet Costume,Accessories,20.99,100,PetFashion,Cute costume for pets for special occasions.
+158,Small Animal Travel Cage,Housing,45.0,80,PetTravelPro,Portable cage for small animals during travel.
+159,Fish Tank Kit,Equipment,110.0,15,AquaStarterKit,Complete kit for setting up a home aquarium.
+160,Pet Cooling Mat,Accessories,35.99,90,CoolPets,Cooling mat for pets during hot weather.

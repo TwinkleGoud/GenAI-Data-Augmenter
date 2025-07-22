@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>GenAI Data Augmenter</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f3f4f6;
+      margin: 0;
+      padding: 30px;
+    }
+
+    .container {
+      max-width: 700px;
+      margin: auto;
+      background: white;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      margin-bottom: 20px;
+      color: #1f2937;
+    }
+
+    label {
+      display: block;
+      margin-top: 15px;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+
+    input[type="text"], input[type="number"], input[type="file"] {
+      width: 100%;
+      padding: 10px;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+      margin-bottom: 15px;
+    }
+
+    button {
+      background-color: #2563eb;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    button:hover {
+      background-color: #1d4ed8;
+    }
+
+    .output {
+      margin-top: 20px;
+      background: #f9fafb;
+      padding: 15px;
+      border-radius: 6px;
+      white-space: pre-wrap;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <h2>GenAI Data Augmentor</h2>
+
+  <form id="augmentForm" enctype="multipart/form-data" method="POST">
+    <label for="csvFile">Upload CSV File</label>
+    <input type="file" id="file" name="file" accept=".csv" />
+
+    <label for="rowsCount">Rows to Add</label>
+    <input type="number" id="rowsCount" name="rowsCount" placeholder="e.g., 10" min="1" />
+
+    <label for="primaryKey">Primary Key Column</label>
+    <input type="text" id="primaryKey" name="primaryKey" placeholder="e.g., id" />
+
+    <label for="uniqueKeys">Unique Keys (comma-separated)</label>
+    <input type="text" id="uniqueKeys" name="uniqueKeys" placeholder="e.g., email,phone" />
+
+    <label for="output_filename">File Name</label>
+    <input type="text" id="output_filename" name="output_filename" placeholder="e.g., sample.csv" />
+
+    <button type="submit">Submit</button>
+  </form>
+
+  <div class="output" id="output"></div>
+</div>
+</body>
+</html>
