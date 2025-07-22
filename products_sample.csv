@@ -1,0 +1,11 @@
+product_id,product_name,category,price,quantity
+1,Wireless Mouse,Electronics,25.99,150
+2,Mechanical Keyboard,Electronics,89.99,75
+3,Bluetooth Headphones,Electronics,59.99,120
+4,Smartphone,Electronics,699.99,50
+5,4K Monitor,Electronics,399.99,30
+6,Office Chair,Furniture,199.99,100
+7,Desk Lamp,Furniture,45.99,80
+8,Wooden Desk,Furniture,299.99,60
+9,Running Shoes,Footwear,79.99,200
+10,Casual T-Shirt,Apparel,19.99,300

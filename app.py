@@ -3,7 +3,9 @@ import io
 import json
 from openai import OpenAI
 from flask import Flask, render_template, request, send_file
+import os
 
+client = OpenAI(api_key='')  # Add your OpenAI API key
 
 app = Flask(__name__)
 
@@ -67,7 +69,11 @@ def index():
             df_augmented.to_csv(output, index=False)
             output.seek(0)
 
-            return send_file(output, mimetype='text/csv', as_attachment=True, download_name = file.filename + '_augmented.csv')
+            # Fix the download file name
+            base, ext = os.path.splitext(file.filename)
+            download_name = f"{base}_augmented{ext}"
+
+            return send_file(output, mimetype='text/csv', as_attachment=True, download_name=download_name)
 
     return render_template('index.html')
 
