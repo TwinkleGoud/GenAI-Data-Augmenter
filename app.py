@@ -4,7 +4,7 @@ import json
 from openai import OpenAI
 from flask import Flask, render_template, request, send_file
 
-client = OpenAI(api_key='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')
+client = OpenAI(api_key='') ### Add your OpenAI API key here
 
 app = Flask(__name__)
 
