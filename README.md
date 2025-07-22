@@ -15,7 +15,7 @@ A simple web app built with Flask and OpenAI API that takes a CSV file and gener
 
 - Python
 - Flask
-- OpenAI GPT-4o
+- OpenAI GPT-mini-4o
 - HTML/CSS
 
 
@@ -25,7 +25,17 @@ A simple web app built with Flask and OpenAI API that takes a CSV file and gener
 ## Setup Instructions
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/genai-data-augmentor.git
-cd genai-data-augmentor
+# 1. Clone the repository
+git clone https://github.com/TwinkleGoud/GenAI-Data-Augmenter.git
+
+# 2. Navigate into the project directory
+cd GenAI-Data-Augmenter
+
+# 3. Install required Python packages
 pip install -r requirements.txt
+
+# 4. Install required Python packages
+Add your OpenAI Key in app.py
+
+# 5. Run the Flask app
 python app.py
